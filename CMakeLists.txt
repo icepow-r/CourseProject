@@ -10,4 +10,5 @@ add_executable(CourseProject main.cpp
         lab4.h
         lab1.cpp
         lab2.cpp
-        lab3.cpp)
+        lab3.cpp
+        lab4.cpp)
