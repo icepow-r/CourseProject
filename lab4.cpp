@@ -197,5 +197,6 @@ int run_lab_4() {
     auto kmp_result = kmp(long_line, pattern);
     cout << "Найдено " << result << " подстрок." << endl;
     cout << "Найдено " << kmp_result.size() << " подстрок." << endl;
+    system("pause");
     return 0;
 }

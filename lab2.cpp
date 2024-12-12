@@ -5,7 +5,7 @@
 using namespace std;
 using namespace chrono;
 
-const int N = 100;
+const int N = 1000;
 int unsorted_array[N], sorted_array[N];
 time_point<steady_clock, duration<__int64, ratio<1, 1000000000>>> start_time, end_time;
 nanoseconds result_time;
@@ -93,7 +93,7 @@ int run_lab_2() {
         }
 
     } while (choice != 0);
-
+    return 0;
 }
 
 void bubble_sort(int *arr, int n) {

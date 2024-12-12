@@ -174,5 +174,5 @@ int run_lab_1() {
         std::cin >> choice;
 
     } while (choice == 'y');
-
+    return 0;
 }
